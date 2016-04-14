@@ -284,7 +284,8 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-features,
 #fh5co-testimonials,
 #fh5co-pricing,
-#fh5co-press {
+#fh5co-press,
+#fh5co-contact {
   padding: 7em 0;
 }
 @media screen and (max-width: 480px) {
@@ -293,7 +294,8 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-features,
   #fh5co-testimonials,
   #fh5co-pricing,
-  #fh5co-press {
+  #fh5co-press,
+  #fh5co-contact {
     padding: 5em 0;
   }
 }
@@ -438,8 +440,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 #fh5co-pricing .pricing-info {
-  padding: 0;
+  font-size: small;
+  font-style: italic;
   margin: 0 0 30px 0;
+  padding: 0;
+  text-align: left;
 }
 #fh5co-pricing .pricing-info li {
   padding: 0;
@@ -454,6 +459,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #fh5co-press {
+  background: #f4f4f4;
+}
+
+#fh5co-contact {
   background: #f4f4f4;
 }
 
@@ -630,6 +639,88 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
 }
+
+
+
+
+
+#fh5co-contact .fh5co-contact-item {
+  background: #fff;
+  float: left;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+@media screen and (max-width: 480px) {
+  #fh5co-contact .fh5co-contact-item {
+    display: block !important;
+  }
+}
+#fh5co-contact .fh5co-contact-item .fh5co-contact-text,
+#fh5co-contact .fh5co-contact-item .fh5co-contact-img {
+  width: 50%;
+}
+@media screen and (max-width: 480px) {
+  #fh5co-contact .fh5co-contact-item .fh5co-contact-text,
+  #fh5co-contact .fh5co-contact-item .fh5co-contact-img {
+    height: inherit;
+    float: none !important;
+    width: 100%;
+    display: block !important;
+  }
+}
+#fh5co-contact .fh5co-contact-item .fh5co-contact-text {
+  float: left;
+  padding: 20px;
+}
+#fh5co-contact .fh5co-contact-item .fh5co-contact-text .fh5co-contact-title {
+  margin: 0 0 20px 0;
+  padding: 0 0 10px 0;
+  font-weight: 400;
+  font-size: 20px;
+  color: #444;
+  position: relative;
+}
+#fh5co-contact .fh5co-contact-item .fh5co-contact-text .fh5co-contact-title .fh5co-border {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 30px;
+  background: #a03232;
+}
+#fh5co-contact .fh5co-contact-item .fh5co-contact-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-size: cover;
+}
+@media screen and (max-width: 480px) {
+  #fh5co-contact .fh5co-contact-item .fh5co-contact-img {
+    height: 200px;
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
 
 .fh5co-nav-toggle {
   width: 25px;
