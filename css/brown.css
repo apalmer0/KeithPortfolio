@@ -279,8 +279,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
+#fh5co-about-us {
+  padding: 7em 0 3em 0;
+}
+
 #fh5co-our-services,
-#fh5co-about-us,
 #fh5co-features,
 #fh5co-testimonials,
 #fh5co-pricing,
@@ -844,6 +847,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
 }
 
+
+
 .keith {
   text-align: center;
   /*margin-top: 40px;*/
@@ -958,6 +963,12 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+}
+
+.social img {
+  height: 20px;
+  padding-top: 4px;
+  padding-left: 2px;
 }
 
 .owl-carousel .owl-controls .owl-nav {
