@@ -971,6 +971,73 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 2px;
 }
 
+.keith-links {
+  padding-top: 12%;
+}
+
+.keith-link {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.keith-link li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.keith-link li a {
+  font-size: 34px;
+  display: table;
+  width: 80px;
+  height: 80px;
+  margin: 0 4px;
+}
+.keith-link li a i {
+  display: table-cell;
+  vertical-align: middle;
+}
+.keith-link li a:hover, .keith-link li a:active, .keith-link li a:focus {
+  text-decoration: none;
+  border-bottom: none;
+}
+.keith-link li a.keith-link-box {
+  background: #a03232;
+  color: #fff;
+}
+.keith-link li a.keith-link-circle {
+  background: #a03232;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.keith-link li a:hover {
+  background: #393e46 !important;
+}
+.keith-link.keith-link-box a {
+  background: #a03232;
+  color: #fff;
+}
+.keith-link.keith-link-circle a {
+  background: #a03232;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.keith-link img {
+  height: 50px;
+  padding-top: 4px;
+  padding-left: 2px;
+  margin-top: 13px;
+}
+
 .owl-carousel .owl-controls .owl-nav {
   opacity: 0;
   -webkit-transition: 0.5s;
