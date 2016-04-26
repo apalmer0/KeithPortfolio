@@ -435,6 +435,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 50px;
   color: #000;
 }
+#fh5co-pricing .price-media {
+  font-size: 30px;
+  color: #000;
+}
 #fh5co-pricing .price .currency {
   font-size: 20px;
   top: -1.2em;
@@ -573,20 +577,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-press .fh5co-press-item {
-  background: #fff;
-  float: left;
-  margin-bottom: 30px;
-  position: relative;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  background: #fff;
   border-radius: 4px;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  float: left;
+  margin-bottom: 30px;
+  min-height: 334px;
+  min-width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 @media screen and (max-width: 480px) {
   #fh5co-press .fh5co-press-item {
@@ -619,6 +625,22 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 #fh5co-press .fh5co-press-item .fh5co-press-text .fh5co-press-title .fh5co-border {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 30px;
+  background: #a03232;
+}
+#fh5co-press .fh5co-press-item .fh5co-press-text .fh5co-press-subtitle {
+  margin: 0 0 20px 0;
+  padding: 0 0 10px 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #444;
+  position: relative;
+}
+#fh5co-press .fh5co-press-item .fh5co-press-text .fh5co-press-subtitle {
   position: absolute;
   left: 0;
   bottom: 0;
