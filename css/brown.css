@@ -1357,6 +1357,7 @@ header .header-content .inner p {
 }
 .owl-carousel-fullwidth .item .fh5co-owl-text {
   background: rgba(57, 62, 70, .7);
+  border-radius: 6px;
   display: table-cell;
   padding: 25px;
   position: relative;
