@@ -109,7 +109,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: "Source Sans Pro", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  /*color: rgba(255, 255, 255, 0.5);*/
+  color: rgba(0, 0, 0, 0.5);
   position: relative;
 }
 #fh5co-header #navbar li a span {
@@ -138,7 +139,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 #fh5co-header #navbar li a:hover {
-  color: #fff;
+  /*color: #fff;*/
+  color: #a03232;
 }
 #fh5co-header #navbar li a:hover span:before {
   visibility: visible;
@@ -151,7 +153,8 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #fff;
+  /*color: #fff;*/
+  color: #a03232;
 }
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;
@@ -164,7 +167,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   font-weight: 700;
   padding-left: 0;
-  color: #fff;
+  /*color: #fff;*/
+  color: #a03232;
+
 }
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
@@ -236,8 +241,9 @@ header {
   color: #fff;
   width: 100%;
   height: 100%;
-  background-color: #c9c9c9;
-  background-image: url(../images/video-placeholder.png);
+  background-color: #ffffff;
+  /*background-color: #c9c9c9;*/
+  /*background-image: url(../images/video-placeholder.png);*/
   background-position: center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -1356,7 +1362,7 @@ header .header-content .inner p {
   max-width: 100%;
 }
 .owl-carousel-fullwidth .item .fh5co-owl-text {
-  background: rgba(57, 62, 70, .7);
+  /*background: rgba(57, 62, 70, .7);*/
   border-radius: 6px;
   display: table-cell;
   padding: 25px;
@@ -1384,10 +1390,10 @@ header .header-content .inner p {
   margin-top: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #fff;
   font-size: 50px;
   line-height: 50px;
-  color: #fff;
+  /*color: #fff;*/
+  color: #444;
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead {
@@ -1398,11 +1404,11 @@ header .header-content .inner p {
 }
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
   font-size: 30px;
-  line-height: 30px;
   line-height: 42px;
   font-weight: 100;
   margin-bottom: 30px;
-  color: white;
+  /*color: white;*/
+  color: #929292;
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
